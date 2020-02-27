@@ -9,8 +9,6 @@ function submitValue(){
     let DiasFerias = document.getElementById('dias-ferias').value;
     ResultadoValorHora = (ValorTotal / (DiasTrabalhados * 4 * HorasTrabalhadas)) + ( ( DiasFerias * DiasTrabalhados * HorasTrabalhadas) );
     localStorage.setItem('ResultadoValorHora',ResultadoValorHora);
-    console.log(ResultadoValorHora);
-    console.log('teste');
     location.href="http://127.0.0.1:5500/src/result-page/indexResult.html";
 }
 
