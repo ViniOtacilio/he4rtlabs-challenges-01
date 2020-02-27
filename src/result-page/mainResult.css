@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #952CEB;
+}
+
+h1,h2 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 1.5em;
+}
+
+.value-main-container {
+    background-color: #ffffff;
+    padding: 0.5em 2.5em 2.0em 2.5em;
+}
+
+
+.main-image {
+    background-image: url(/assets/he4rt_logo.png);
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 150px;
+}
+
+#valor-hora {
+    color: white;
+    font-size: 36px;
+}

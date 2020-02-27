@@ -7,10 +7,13 @@
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/751ce505a5.js" crossorigin="anonymous"></script>
     <title>Calculadora de Freela - He4rtDevs</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
+    <script src="./main.js"></script>
+  
     <div class="main">
       <div class="main-image">
         
@@ -18,28 +21,34 @@
       <div class="title">
         <h1>Calculadora Freelance</h1>
       </div>
+      <form>
       <div class="value-main-container">
       <div class="value-container">
-        <p>Valor total do projeto</p>
-        <input type="number"></input>
+        <p><i class="teste fas fa-info-circle"></i>
+          Valor total do projeto
+        </p>
+        <input id="valor-total" type="number"></input>
       </div>
       <div class="value-container">
-        <p>Quantidade de horas trabalhadas por dia</p>
-        <input type="number"></input>
+        <p><i class="fas fa-info-circle"></i>
+          Quantidade de horas trabalhadas por dia</p>
+        <input id="horas-trabalhadas" type="number"></input>
       </div>
       <div class="value-container">
-        <p>Dias efetivos trabalhados na semana</p>
-        <input type="number"></input>
+        <p><i class="fas fa-info-circle"></i>
+          Dias efetivos trabalhados na semana</p>
+        <input id="dias-trabalhados" type="number"></input>
       </div>
       <div class="value-container">
-        <p>Dias de férias pelo projeto</p>
-        <input type="number"></input>
+        <p><i class="fas fa-info-circle"></i>
+          Dias de férias pelo projeto</p>
+        <input id="dias-ferias" type="number"></input>
       </div>
       <div class="button-calculate">
-      <button>Calcular</button>
+      <button type="submit" onClick="submitValue()">Calcular</button>
       </div>  
     </div>
+  </form>
     </div>
-    <script src="./main.js"></script>
   </body>
 </html>
