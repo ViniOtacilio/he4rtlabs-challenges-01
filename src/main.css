@@ -72,15 +72,31 @@ a {
     color: white;
 }
 
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top:auto;
+    background-color:#952CEB; 
+}
+
+h4 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.img {
+    object-fit: contain;
+}
+
 .main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-
-.title {
-    margin-bottom: 1.5em;
 }
 
 .value-main-container {
@@ -102,14 +118,18 @@ a {
     padding-top: 0.5em;
 }
 
-.main-image {
-    background-image: url(../assets/he4rt_logo.png);
-    background-repeat: no-repeat;
-    width: 650px;
-    height: 150px;
+.image-size {
+    height: 8.5em;
 }
 
 .fas {
     color: #CB7DEB;
 }
 
+.hoverInfo{
+    border: none;
+    transition: all ease-in-out 0.2s;
+}
+.hoverInfo:hover{
+    opacity: 0.7;
+}
